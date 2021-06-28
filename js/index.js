@@ -28,6 +28,6 @@ function calculateTip() {
   // document.getElementById("yourTip").innerHTML = tip;
   // console.log(tip)
   // console.log("the end");
-  document.getElementById("yourTip").innerHTML = tip;
+  document.getElementById("yourTip").innerHTML = "$" + tip;
   event.preventDefault();
 }
