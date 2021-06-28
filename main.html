@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/index.js"></script>
   <title>Document</title>
 </head>
 <body>
-  
+  <form onsubmit=calculateTip()>
+    <p>Bill ammount?
+      $<input id="bill" type="text">
+    <p>Percentage?
+      %<input id="percent" type="text">
+      <input type="submit" value="Calculate">
+  </form>
+  <div id="totalTip">
+    <h3 id="yourTip"></h3>
+  </div>
 </body>
 </html>
+
