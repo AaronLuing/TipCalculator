@@ -1,0 +1,13 @@
+.container {
+  height: 300px;
+  width: 250px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  text-align: center;
+}
+h1 {
+  background:cornflowerblue
+}
+body {
+  background:darkcyan;
+}

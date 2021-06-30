@@ -5,19 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/index.js"></script>
+  <link rel="stylesheet" href="style/style.css">
   <title>Document</title>
 </head>
 <body>
-  <form onsubmit=calculateTip()>
-    <p>Bill amount?
-      $<input id="bill" type="text">
-    <p>Percentage?
-      %<input id="percent" type="text">
-      <input type="submit" value="Calculate">
-  </form>
-  <div id="totalTip">
-    <h3 id="yourTip"></h3>
+  <div class="container">
+    <h1>Tip Calculator</h1>
+    <div id="calculator">
+      <form onsubmit=calculateTip()>
+        <p>Bill amount?<br>
+          $<input id="bill" type="text">
+        <p>Percentage?<br>
+          %<input id="percent" type="text">
+          <br>
+          <input type="submit" value="Calculate">
+      </form>
+      <div id="totalTip">
+        <h3 id="tipIntro"></h3>
+        <h2 id="yourTip"></h2>
+      </div>
+    </div>
   </div>
 </body>
 </html>
-
