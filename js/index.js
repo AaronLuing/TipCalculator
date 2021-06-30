@@ -28,6 +28,7 @@ function calculateTip() {
   // document.getElementById("yourTip").innerHTML = tip;
   // console.log(tip)
   // console.log("the end");
+  document.getElementById("container").style.height = "350px";
   document.getElementById("tipIntro").innerHTML = "Your tip will be:"
   document.getElementById("yourTip").innerHTML = "$" + tip;
   event.preventDefault();
